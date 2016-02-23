@@ -11,5 +11,5 @@ docker run -tdi \
  	   -v ${GOPATH}:/root/go \
 	   --name intellij-docker \
            --net host \
-	   intellij
+	   bplotka/docker-dev-intellij
 
